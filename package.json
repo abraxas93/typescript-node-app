@@ -32,6 +32,7 @@
     "@types/request": "^2.48.1",
     "ts-node-dev": "^1.0.0-pre.39",
     "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.5.1"
   },
   "dependencies": {}
