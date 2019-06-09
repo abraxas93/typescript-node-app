@@ -1,0 +1,38 @@
+{
+  "name": "typescript-node",
+  "version": "1.0.0",
+  "description": "a simple typescript node boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js start-server",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraxas93/typescript-node-app.git"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "boilerplate",
+    "node"
+  ],
+  "author": "vertix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abraxas93/typescript-node-app/issues"
+  },
+  "homepage": "https://github.com/abraxas93/typescript-node-app#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/express-session": "^1.15.12",
+    "@types/node": "^12.0.7",
+    "@types/request": "^2.48.1",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {}
+}
